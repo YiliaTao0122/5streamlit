@@ -9,18 +9,21 @@ from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
 # Center-Aligned Logo and Title
-col1, col2, col3 = st.columns([1, 2, 1])  # Create 3 columns for centering
+col1, col2, col3 = st.columns([1, 2, 1])  # Adjust column widths for centering
 with col2:
-    # Display the logo on top
+    # Display the logo first
     st.image("aucklandcouncil_logo.PNG", width=150)
     # Display the title and subtitle
     st.markdown(
         """
-        <h1 style="color: #2c7fb8; font-size: 36px; text-align: center;">ECO SOIL INSIGHTS</h1>
-        <h3 style="text-align: center;">Data Cleaning App</h3>
+        <div style="text-align: center;">
+            <h1 style="color: #2c7fb8; font-size: 36px;">ECO SOIL INSIGHTS</h1>
+            <h3 style="font-size: 24px; margin-top: -10px;">Data Cleaning App</h3>
+        </div>
         """,
         unsafe_allow_html=True
     )
+
 
 
 
