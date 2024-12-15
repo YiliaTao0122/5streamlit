@@ -18,7 +18,7 @@ with col2:
         """
         <div style="text-align: center;">
             <h1 style="color: #2c7fb8; font-size: 36px;">ECO SOIL INSIGHTS</h1>
-            <h3 style="font-size: 24px; margin-top: -10px;">Data Cleaning App</h3>
+            <h3 style="font-size: 24px; margin-top: -10px;">Data Cleansing App</h3>
         </div>
         """,
         unsafe_allow_html=True
