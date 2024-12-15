@@ -11,7 +11,7 @@ from sklearn.impute import IterativeImputer
 # Center-Aligned Logo and Title
 col1, col2, col3 = st.columns([1, 2, 1])  # Create three columns
 with col2:  # Place content in the middle column
-    st.image("aucklandcouncil_logo.PNG", width=120)  # Add the logo
+    st.image("aucklandcouncil_logo.PNG", width=150)  # Add the logo
     st.markdown(
         """
         <h1 style="color: #2c7fb8; font-size: 36px; text-align: center; margin-bottom: -10px;">ECO SOIL INSIGHTS</h1>
