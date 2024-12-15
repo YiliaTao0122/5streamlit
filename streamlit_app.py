@@ -9,6 +9,7 @@ from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
 # Display Title with Centered Logo
+# Add Auckland Council Logo and Center-Aligned Title
 st.markdown(
     """
     <div style="text-align: center;">
@@ -19,6 +20,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
