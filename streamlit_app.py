@@ -12,6 +12,10 @@ from sklearn.impute import IterativeImputer
 st.markdown(
     """
     <div style="text-align: center;">
+    st.image("aucklandcouncil_logo.PNG", width=120, output_format="PNG")
+
+    </div>
+    <div style="text-align: center;">
         <h1 style="color: #2c7fb8; font-size: 36px;">ECO SOIL INSIGHTS</h1>
         <h3 style="font-size: 24px; margin-top: -10px;">Data Cleaning App</h3>
     </div>
