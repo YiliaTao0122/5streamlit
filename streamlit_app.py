@@ -8,16 +8,18 @@ from scipy.stats import ks_2samp
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
+# Add Auckland Council Logo and Title
+st.image("aucklandcouncil_logo.PNG", width=150)  # Ensure the file is in the same directory as your script
 st.markdown(
     """
     <div style="text-align: center;">
         <h1 style="color: #2c7fb8;">ECO SOIL INSIGHTS</h1>
         <h3>Data Cleaning App</h3>
-        <img src="aucklandcouncil_logo.PNG" alt="Auckland Council Logo" style="width:150px;">
     </div>
     """,
     unsafe_allow_html=True
 )
+
 
 # Access Control
 st.sidebar.header("Access Control")
