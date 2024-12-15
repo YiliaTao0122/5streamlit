@@ -9,7 +9,7 @@ from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
 # Center-Aligned Logo and Title
-col1, col2, col3 = st.columns([1, 1, 1])  # Adjust column widths for centering
+col1, col2, col3 = st.columns([1, 2, 1])  # Adjust column widths for centering
 with col2:
     # Display the logo first
     st.image("aucklandcouncil_logo.PNG", width=150)
