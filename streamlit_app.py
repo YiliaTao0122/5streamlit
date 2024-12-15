@@ -1,13 +1,5 @@
 import streamlit as st
 
-# Access Control
-st.sidebar.header("Access Control")
-password = st.sidebar.text_input("Enter the access password:", type="password")
-if password != "ESIAKL":  # Replace 'ESIAKL' with your desired password
-    st.warning("Access Denied. Please enter the correct password.")
-    st.stop()
-
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -18,6 +10,13 @@ from sklearn.impute import IterativeImputer
 
 # Streamlit App Title
 st.title("Ecosoil Insight AKL: Data Cleaning App")
+
+# Access Control
+st.sidebar.header("Access Control")
+password = st.sidebar.text_input("Enter the access password:", type="password")
+if password != "ESIAKL":  # Replace 'ESIAKL' with your desired password
+    st.warning("Access Denied. Please enter the correct password.")
+    st.stop()
 
 # Introduction Section
 st.write("""
