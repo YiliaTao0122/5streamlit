@@ -8,20 +8,18 @@ from scipy.stats import ks_2samp
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
-# Center-Aligned Logo and Title
-col1, col2, col3 = st.columns([1, 3, 1])  # Create columns for layout
-with col2:
-    st.image("aucklandcouncil_logo.PNG", use_column_width=True)  # Display logo in the center
-
+# Display the Auckland Council Logo and Title
+st.image("aucklandcouncil_logo.PNG", width=150, caption=None)
 st.markdown(
     """
     <div style="text-align: center;">
-        <h1 style="color: #2c7fb8; font-size: 36px; margin-bottom: -10px;">ECO SOIL INSIGHTS</h1>
-        <h3 style="font-size: 24px; margin-top: 5px;">Data Cleaning App</h3>
+        <h1 style="color: #2c7fb8; font-size: 36px;">ECO SOIL INSIGHTS</h1>
+        <h3>Data Cleaning App</h3>
     </div>
     """,
     unsafe_allow_html=True
 )
+
 
 
 
