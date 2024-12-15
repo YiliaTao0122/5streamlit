@@ -9,7 +9,8 @@ from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
 # Streamlit App Title
-st.title("Ecosoil Insight AKL: Data Cleaning App")
+st.title("Ecosoil Insight AKL
+Data Cleaning App")
 
 # Access Control
 st.sidebar.header("Access Control")
