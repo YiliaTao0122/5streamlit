@@ -8,10 +8,17 @@ from scipy.stats import ks_2samp
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 
-# Streamlit App Title
-st.title("Ecosoil Insight AKL
-Data Cleaning App")
-
+# Streamlit App Title with Logo
+st.markdown(
+    """
+    <div style="text-align: center;">
+        <h1 style="color: #2c7fb8;">ECO SOIL INSIGHTS</h1>
+        <h3>Data Cleaning App</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/en/2/27/Auckland_Council_logo.png" alt="Auckland Council Logo" style="width:150px;">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 # Access Control
 st.sidebar.header("Access Control")
 password = st.sidebar.text_input("Enter the access password:", type="password")
