@@ -10,15 +10,18 @@ from sklearn.impute import IterativeImputer
 
 # Display the Auckland Council Logo and Title
 st.image("aucklandcouncil_logo.PNG", width=150, caption=None)
-st.markdown(
-    """
-    <div style="text-align: center;">
-        <h1 style="color: #2c7fb8; font-size: 36px;">ECO SOIL INSIGHTS</h1>
-        <h3>Data Cleaning App</h3>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+# Center-Aligned Logo and Title
+col1, col2, col3 = st.columns([1, 2, 1])  # Adjust column widths
+with col2:
+    st.image("aucklandcouncil_logo.PNG", width=150)  # Display logo at the center
+    st.markdown(
+        """
+        <h1 style="color: #2c7fb8; font-size: 36px; text-align: center;">ECO SOIL INSIGHTS</h1>
+        <h3 style="text-align: center;">Data Cleaning App</h3>
+        """,
+        unsafe_allow_html=True
+    )
+
 
 
 
